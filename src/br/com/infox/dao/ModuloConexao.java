@@ -33,7 +33,7 @@ public class ModuloConexao {
             //System.out.println(status);
             return conexao;
         } catch (Exception e) {
-            //status = (" ATENÇÃO!!\nFalha de conexão com o banco de dados!!\nErro:"+e);
+            //status = (" ATENÇÃO!!\nFalha de conexão com o banco de dados!!\n Erro:"+e);
             //System.out.println(status);
             return null;
         }
